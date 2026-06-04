@@ -14,3 +14,27 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+## Backend Tests
+
+This repository includes backend API tests in the `tests/` directory using `pytest` and FastAPI's `TestClient`.
+
+### Run tests
+
+```bash
+pytest
+```
+
+### Run a single test file
+
+```bash
+pytest tests/test_signup.py
+```
+
+### Test style
+
+Tests use the AAA pattern with explicit sections:
+
+- Arrange
+- Act
+- Assert
+
